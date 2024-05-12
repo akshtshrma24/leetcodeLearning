@@ -3,11 +3,13 @@ Welcome to my Leetcode Problems, feel free to clone and just delete my work to d
 `python3 reloadReadme.py` to reload the readMe
 
 ## Notes
+[dfsbfs](./notes/dfsbfs.md)<br>
 [graphs](./notes/graphs.md)<br>
 [dp](./notes/dp.md)<br>
 
 ## Problems
 [70dp](./problems/70dp.md)<br>
+[647dp](./problems/647dp.md)<br>
 [746dp](./problems/746dp.md)<br>
 [5dp](./problems/5dp.md)<br>
 [198dp](./problems/198dp.md)<br>
