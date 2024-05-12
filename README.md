@@ -8,8 +8,10 @@ Welcome to my Leetcode Problems, feel free to clone and just delete my work to d
 [dp](./notes/dp.md)<br>
 
 ## Problems
+[90backtracking](./problems/90backtracking.md)<br>
 [70dp](./problems/70dp.md)<br>
 [647dp](./problems/647dp.md)<br>
+[46backtracking](./problems/46backtracking.md)<br>
 [746dp](./problems/746dp.md)<br>
 [5dp](./problems/5dp.md)<br>
 [198dp](./problems/198dp.md)<br>
