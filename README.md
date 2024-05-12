@@ -1,3 +1,3 @@
 # Notes for Leetcode
 
-[dp](dp.md)
+[dp](./notes/dp.md)
