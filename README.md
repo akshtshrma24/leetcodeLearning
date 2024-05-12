@@ -1,3 +1,3 @@
 # Notes for Leetcode
 
-[a relative link](dp.md)
+[dp](dp.md)
