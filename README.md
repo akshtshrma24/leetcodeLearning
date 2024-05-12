@@ -2,7 +2,7 @@
 
 
 ## Notes
-[dp](./notes/dp.md)
+[dp](./notes/dp.md)<br>
 
 ## Problems
 [70dp](./problems/70dp.md)<br>
