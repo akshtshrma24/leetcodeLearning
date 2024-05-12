@@ -6,7 +6,7 @@ print(dir_list)
 print(dir_list2)
 print(open('README.md', 'r').readlines())
 
-to_write = ['# Notes for Leetcode\n', '`python3 reloadReadme.py` to reload the readMe\n', '\n', '## Notes\n']
+to_write = ['# Notes for Leetcode\n', 'Welcome to my Leetcode Problems, feel free to clone and just delete my work to do it yourself auto reloading below<br>\n', '`python3 reloadReadme.py` to reload the readMe\n', '\n', '## Notes\n']
 f = open('README.md', 'w')
 
 for i in dir_list:
