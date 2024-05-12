@@ -2,6 +2,7 @@
 
 
 ## Notes
+[graphs](./notes/graphs.md)<br>
 [dp](./notes/dp.md)<br>
 
 ## Problems
