@@ -1,5 +1,5 @@
 # Notes for Leetcode
-
+`python3 reloadReadme.py` to reload the readMe
 
 ## Notes
 [graphs](./notes/graphs.md)<br>
