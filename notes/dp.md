@@ -2,6 +2,8 @@
 
 <hr> 
 
+Finding the sub problem
+
 Memoize - Store previous solutions 
 fibonacci func
     check if it has been solved it it has return the solution
