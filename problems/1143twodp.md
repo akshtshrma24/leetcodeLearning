@@ -14,6 +14,7 @@ class Solution:
                 # otherwise you get the max of column right and row bottom
                 else:
                     dp[i][j] = max(dp[i + 1][j], dp[i][j + 1])
+        # return 0th 
         return dp[0][0]
 
 ```
