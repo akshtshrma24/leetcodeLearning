@@ -9,6 +9,7 @@ Welcome to my Leetcode Problems, feel free to clone and just delete my work to d
 
 ## Problems
 [62twodp](./problems/62twodp.md)<br>
+[994graphs](./problems/994graphs.md)<br>
 [90backtracking](./problems/90backtracking.md)<br>
 [70dp](./problems/70dp.md)<br>
 [647dp](./problems/647dp.md)<br>
