@@ -15,6 +15,7 @@ Welcome to my Leetcode Problems, feel free to clone and just delete my work to d
 [70dp](./problems/70dp.md)<br>
 [647dp](./problems/647dp.md)<br>
 [74binarysearch](./problems/74binarysearch.md)<br>
+[130graphs](./problems/130graphs.md)<br>
 [40backtracking](./problems/40backtracking.md)<br>
 [1143twodp](./problems/1143twodp.md)<br>
 [200graphs](./problems/200graphs.md)<br>
