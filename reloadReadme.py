@@ -2,9 +2,6 @@ import os
 dir_list = os.listdir('./notes')
 dir_list2 = os.listdir('./problems')
 
-sorted(dir_list, key=lambda x:x[:3])
-sorted(dir_list2, key=lambda x:x[:3])
-
 to_write = ['# Notes for Leetcode\n', 'Welcome to my Leetcode Problems, feel free to clone and just delete my work to do it yourself<br>\n', '`python3 reloadReadme.py` to reload the readMe\n', '\n', '## Notes\n']
 f = open('README.md', 'w')
 
