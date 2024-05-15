@@ -23,7 +23,7 @@ dir_list2 = os.listdir('./problems')
 dir_list.sort(key=natural_keys)
 dir_list2.sort(key=natural_keys)
 
-to_write = ['# Notes for Leetcode\n', 'Welcome to my Leetcode Problems, feel free to clone and just delete my work to do it yourself<br>\n', '`python3 reloadReadme.py` to reload the readMe\n', '\n', '## Notes\n']
+to_write = ['# Notes for Leetcode\n', 'Welcome to my Leetcode Problems, these are my notes for the problems that I am solving<br>\n', '`python3 reloadReadme.py` to reload the readMe\n', '\n', '## Notes\n']
 f = open('README.md', 'w')
 
 for i in dir_list:
