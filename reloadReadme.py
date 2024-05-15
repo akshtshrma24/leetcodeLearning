@@ -2,10 +2,6 @@ import os
 dir_list = os.listdir('./notes')
 dir_list2 = os.listdir('./problems')
 
-print(dir_list)
-print(dir_list2)
-print(open('README.md', 'r').readlines())
-
 to_write = ['# Notes for Leetcode\n', 'Welcome to my Leetcode Problems, feel free to clone and just delete my work to do it yourself<br>\n', '`python3 reloadReadme.py` to reload the readMe\n', '\n', '## Notes\n']
 f = open('README.md', 'w')
 
