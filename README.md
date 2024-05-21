@@ -11,6 +11,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [5dp](./problems/5dp.md)<br>
 [40backtracking](./problems/40backtracking.md)<br>
 [46backtracking](./problems/46backtracking.md)<br>
+[48mathgeometry](./problems/48mathgeometry.md)<br>
 [62twodp](./problems/62twodp.md)<br>
 [70dp](./problems/70dp.md)<br>
 [74binarysearch](./problems/74binarysearch.md)<br>
