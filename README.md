@@ -18,6 +18,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [90backtracking](./problems/90backtracking.md)<br>
 [130graphs](./problems/130graphs.md)<br>
 [136bitmanipulation](./problems/136bitmanipulation.md)<br>
+[138linkedlist](./problems/138linkedlist.md)<br>
 [143linkedlist](./problems/143linkedlist.md)<br>
 [190bitmanipulation](./problems/190bitmanipulation.md)<br>
 [191bitmanipulation](./problems/191bitmanipulation.md)<br>
