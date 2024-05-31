@@ -16,6 +16,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [70dp](./problems/70dp.md)<br>
 [74binarysearch](./problems/74binarysearch.md)<br>
 [90backtracking](./problems/90backtracking.md)<br>
+[128arrayhashing](./problems/128arrayhashing.md)<br>
 [130graphs](./problems/130graphs.md)<br>
 [136bitmanipulation](./problems/136bitmanipulation.md)<br>
 [138linkedlist](./problems/138linkedlist.md)<br>
