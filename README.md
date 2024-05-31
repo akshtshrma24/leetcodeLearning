@@ -29,6 +29,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [338bitmanipulation](./problems/338bitmanipulation.md)<br>
 [417graphs](./problems/417graphs.md)<br>
 [647dp](./problems/647dp.md)<br>
+[651arrayshashing](./problems/651arrayshashing.md)<br>
 [746dp](./problems/746dp.md)<br>
 [994graphs](./problems/994graphs.md)<br>
 [1143twodp](./problems/1143twodp.md)<br>
