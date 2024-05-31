@@ -9,6 +9,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 
 ## Problems
 [5dp](./problems/5dp.md)<br>
+[36arrayhasing](./problems/36arrayhasing.md)<br>
 [40backtracking](./problems/40backtracking.md)<br>
 [46backtracking](./problems/46backtracking.md)<br>
 [48mathgeometry](./problems/48mathgeometry.md)<br>
