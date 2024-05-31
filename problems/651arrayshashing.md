@@ -26,3 +26,6 @@ class Solution:
             i = j
         return res
 ```
+
+use # and lenght of string to encode
+then decode you can just use the lenth and the # to note when 
