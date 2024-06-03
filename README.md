@@ -22,6 +22,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [136bitmanipulation](./problems/136bitmanipulation.md)<br>
 [138linkedlist](./problems/138linkedlist.md)<br>
 [143linkedlist](./problems/143linkedlist.md)<br>
+[155stack](./problems/155stack.md)<br>
 [190bitmanipulation](./problems/190bitmanipulation.md)<br>
 [191bitmanipulation](./problems/191bitmanipulation.md)<br>
 [198dp](./problems/198dp.md)<br>
