@@ -6,6 +6,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [dfsbfs](./notes/dfsbfs.md)<br>
 [dp](./notes/dp.md)<br>
 [graphs](./notes/graphs.md)<br>
+[interviewPrepAmazon](./notes/interviewPrepAmazon.md)<br>
 
 ## Problems
 [5dp](./problems/5dp.md)<br>
@@ -38,6 +39,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [417graphs](./problems/417graphs.md)<br>
 [647dp](./problems/647dp.md)<br>
 [651arrayshashing](./problems/651arrayshashing.md)<br>
+[706hashmap](./problems/706hashmap.md)<br>
 [746dp](./problems/746dp.md)<br>
 [853stack](./problems/853stack.md)<br>
 [994graphs](./problems/994graphs.md)<br>
