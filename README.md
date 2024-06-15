@@ -33,6 +33,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [213dp](./problems/213dp.md)<br>
 [232stacks](./problems/232stacks.md)<br>
 [238arrayhashing](./problems/238arrayhashing.md)<br>
+[268arrays](./problems/268arrays.md)<br>
 [338bitmanipulation](./problems/338bitmanipulation.md)<br>
 [417graphs](./problems/417graphs.md)<br>
 [647dp](./problems/647dp.md)<br>
