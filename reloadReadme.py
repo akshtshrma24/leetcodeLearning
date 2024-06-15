@@ -20,6 +20,8 @@ def natural_keys(text):
 dir_list = os.listdir('./notes')
 dir_list2 = os.listdir('./problems')
 
+problems_done = len(dir_list2)
+
 dir_list.sort(key=natural_keys)
 dir_list2.sort(key=natural_keys)
 
@@ -32,7 +34,7 @@ for i in dir_list:
     to_write.append(f'[{click}]({file})<br>\n')
 
 to_write.append('\n')
-to_write.append('## Problems\n')
+to_write.append(f'## Problems \n ### Total:{problems_done}\n')
 
 for i in dir_list2:
     click = i[:i.index('.')]

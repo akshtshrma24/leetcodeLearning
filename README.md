@@ -8,7 +8,8 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [graphs](./notes/graphs.md)<br>
 [interviewPrepAmazon](./notes/interviewPrepAmazon.md)<br>
 
-## Problems
+## Problems 
+ ### Total:37
 [2linkedlist](./problems/2linkedlist.md)<br>
 [5dp](./problems/5dp.md)<br>
 [22stack](./problems/22stack.md)<br>
