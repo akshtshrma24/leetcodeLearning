@@ -6,10 +6,12 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [dfsbfs](./notes/dfsbfs.md)<br>
 [dp](./notes/dp.md)<br>
 [graphs](./notes/graphs.md)<br>
+[interview](./notes/interview.cpp)<br>
+[interview](./notes/interview.py)<br>
 [interviewPrepAmazon](./notes/interviewPrepAmazon.md)<br>
 
 ## Problems 
- ### Total:37
+ ### Total:38
 [2linkedlist](./problems/2linkedlist.md)<br>
 [5dp](./problems/5dp.md)<br>
 [22stack](./problems/22stack.md)<br>
@@ -47,3 +49,4 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [853stack](./problems/853stack.md)<br>
 [994graphs](./problems/994graphs.md)<br>
 [1143twodp](./problems/1143twodp.md)<br>
+[9999interview](./problems/9999interview.md)<br>
