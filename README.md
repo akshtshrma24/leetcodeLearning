@@ -11,7 +11,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [interviewPrepAmazon](./notes/interviewPrepAmazon.md)<br>
 
 ## Problems 
- ### Total:41
+ ### Total:42
 [2linkedlist](./problems/2linkedlist.md)<br>
 [5dp](./problems/5dp.md)<br>
 [12arrays](./problems/12arrays.md)<br>
@@ -45,6 +45,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [300dp](./problems/300dp.md)<br>
 [338bitmanipulation](./problems/338bitmanipulation.md)<br>
 [417graphs](./problems/417graphs.md)<br>
+[543tree](./problems/543tree.md)<br>
 [647dp](./problems/647dp.md)<br>
 [651arrayshashing](./problems/651arrayshashing.md)<br>
 [706hashmap](./problems/706hashmap.md)<br>
