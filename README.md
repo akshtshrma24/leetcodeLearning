@@ -11,12 +11,13 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [interviewPrepAmazon](./notes/interviewPrepAmazon.md)<br>
 
 ## Problems 
- ### Total:51
+ ### Total:52
 [1arrays](./problems/1arrays.md)<br>
 [2linkedlist](./problems/2linkedlist.md)<br>
 [5dp](./problems/5dp.md)<br>
 [12arrays](./problems/12arrays.md)<br>
 [22stack](./problems/22stack.md)<br>
+[23queue](./problems/23queue.md)<br>
 [36arrayhasing](./problems/36arrayhasing.md)<br>
 [40backtracking](./problems/40backtracking.md)<br>
 [46backtracking](./problems/46backtracking.md)<br>
