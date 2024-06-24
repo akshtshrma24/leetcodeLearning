@@ -6,9 +6,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [dfsbfs](./notes/dfsbfs.md)<br>
 [dp](./notes/dp.md)<br>
 [graphs](./notes/graphs.md)<br>
-[interview](./notes/interview.cpp)<br>
-[interview](./notes/interview.py)<br>
-[interviewPrepAmazon](./notes/interviewPrepAmazon.md)<br>
+[interviewPrep](./notes/interviewPrep.md)<br>
 
 ## Problems 
  ### Total:56
