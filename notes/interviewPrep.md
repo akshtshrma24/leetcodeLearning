@@ -97,4 +97,6 @@ Summary
 <hr> 
 
 * Why Amazon? 
-    * 
+    * I beilieve that Amazon is great for people who like to build things. This is me. I love to build things, showcase my enginuinity, and take ownership of the code that I write. Ive heard from people who work there that this is company is not for people who want to sit back and let things happen. I want to make things happen. I want to meet smart people, I want to learn new things, I want to build new things with impact, and I believe amazon will give me the perfect platform to do this. 
+
+ 
