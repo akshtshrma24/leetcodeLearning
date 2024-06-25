@@ -45,16 +45,20 @@ Summary
     * S
         * So to answer that question I made a mistake when diving too quick into a project I wanted to do and learned important principles from it such as taking ownership, diving deep, and simplifying.
 <hr >
-
+ 
 * Describe a time you took the lead on a project. 
     * P
-        * I took the lead on a project in 
+        * Taking the lead on a project is something that is exteremely important. I think that the leader of the project has full owner ship of the project and its sucess or failure should be their responsibility. Leading a project is not  telling people what to do its, communicating effectivley to earn their trust, learning how to disagree and come to a common solution adn commit to it, its keeping your project to the highest possible standard while keeping the project in bounds/
     * S
+        * I have been leading a summer internship program for the past 2 years for SJSU where me and another alumni get togehther, plan and develop projects, develop design docs, and make videos on topics and then "hire" interns. From interviewing, to presenting the projects to faculty and staff, I am with my interns the entire step of the way. Last summer was actually the first time I got to do this. I had a total of 7 interns who did not know how to give presentations, linux, netowrking, etc and the Faculty and staff chose me and another alumni to lead a learning focused internship.
     * T
+        * I developed a project that is music player on a raspberry pi it streams youtube audio on a linux machine. The goal of this was to dive deep into the inner workings of all points of the project, from understanding how audio is played on a Linux machine, to how to make an API (what is https), earn their trust through effective communication and check ups, and finally deliver results that the faculty and staff of SJSU love. 
     * A
+        * In the conception of the project, I worked with my alumni partner and built a solution that was simple, scalable, but worked extremely well. I had to make sure that the project was big enough to excite the intern, but not too big to daunt them. I wrote a doc on steps of how to do this leaving enough ambiguity to give the intern some freedom to make their own choices which excited them to do the project. When I finally gave my interns the doc after interviewing them, that is when the real work started. I had to check in with them multiple times, make sure they were on track, keep them motivated, and made sure that the code I wrote with them was up to my standard.
     * R
+        * Upon finishing the internship, the faculty and staff loved their project. The faculty and staff were impressed with the knowledge and skills the interns got from us. They were able to learn the presentation and programming/networking skills and got industry relevant experience such as learning how to work with a team.
     * R
-    * S
+        * Sure leading the project made me learn more about networking, bash, and linux as a whole but the soft skills it taught me were more important. It taught me how to lead a project from start, an idea, to finish, in production. I learned how to hold a team to the highest possible standards, I learned how to simplify tasks to be easily implementable, and I learned how to earn trust with a team. 
 <hr >
 
 * What did you do when you needed to motivate a group or promote collaboration on a project? 
@@ -78,9 +82,19 @@ Summary
     * P 
         * I think that data is very important into building a strategy. Data such as, customer feedback and customer behaviour data based off of metrics gathered by products are all extremely important into developing a strategy. Without this youd be blindly creating a project with little to no direction.
     * S
-        * In my OS class for our final project, we were tasked to 
+        * In my time as a student at SJSU, I was very involved with the faculty and staff, I would always ask them questions and be eager to develop software they needed. One of my professors knew that I was very into networking, so he gave me the task of figuring out why the subnet in his office, he had his own little network in there, kept dying at what he thought was random times, with a 15% total daily downtime.
     * T
+        * My task was to first gather data on his wifi network answering several questions such as, when does it go down and when do the speeds decrease. Then I could use this data to further investigate at the times at which they went down to figure out why it kept going down to offer a solution.
     * A
+        * I planned out a C program to gather network speeds and uptime which was then monitored using metrics exported by the C program such as upload, download speeds, and ping. I then found out that at around the same time at every day the internet would just cut off. I used this data to investigate further and found that IT had been automatically temporarily cutting internet to that room due to the the router raising flags. I then developed a strategy to propose a new check for the IT department to use that would not cut internet. I proposed the solution to the professor who approved it and then presented it to IT, who then after further testing implemented it.  
     * R
+        * Thanks to the C program and the data that I had gathered data to filter out possible causes, I was able to narrow down the root causes and develop a strategy based off of that. I then presented the solution after testing and approval from the professor to the IT department who implemented it and then were able to bring my professors up time to match the networks uptime of SJSU.
     * R
+        * doing this project for my professor it taught me that being curious and gathering data to develop a strategy is an effective way about going things. 
     * S
+        * 
+
+<hr> 
+
+* Why Amazon? 
+    * 
