@@ -48,7 +48,7 @@ Summary
 
 * Describe a time you took the lead on a project. 
     * P
-        * I think that taking leads on a project 
+        * I took the lead on a project in 
     * S
     * T
     * A
@@ -59,19 +59,26 @@ Summary
 
 * What did you do when you needed to motivate a group or promote collaboration on a project? 
     * P 
-        * Motivating a group and increasing collaboration on a project is something that is crucial to the quality of the product. Without a motivated team you get an equally good project. Firstly taking ownership of the project is a must, from there you need to earn the trust of the team and be ok with disagreeing. When disagreements do happen it is important to listen to the other person and 
+        * Motivating a group and increasing collaboration on a project is something that is crucial to the quality of the product. Without a motivated team you get an equally good project. Firstly taking ownership of the project is a must, from there you need to earn the trust of the team and be ok with disagreeing. When disagreements do happen it is important to listen to the other person and then come to a decision and commit to tit then. 
     * S
+        * In one of my classes we had to make a project where I was assigned a group of 4 (including me), and I had to build a project from start to finish, with scrum meetings weekly, implementing agile methods and getting everyone to contribute. I was given freedom of the project in terms of tech stack, but it needed to be a fullstack website with a database deployed with docker, but some of my team members were not familiar with docker or dbs. 
     * T
+        * I had to take ownership of the proejct, dive deep with my team to explain inner workings of the tech stack that I chose with my team. And effectively and consistently communicate to earn trust and build a quality project. All this needed to be done in a tight time frame without sacrificing the quality of the project. 
     * A
+        * I setup weekly meetings with my group, and always asked the person with the least experience to open the meetings because that way his ideas werent influenced by others. This really motivated him to always come prepared to the meetings. I worked alongside my group during the meetings and outside to dive deep into topics and explain why things were working the way they were and if they had any disagreements to always listen to them, and make sure they are heard. Doing this I was able to earn the trust of my team, and deliver quality updates to the teacher (my boss in this situation). 
     * R
+        * I was able lead my team into delivering an outstanding final presentation of our project and along the way I was able to teach the skills they were not afluent in yet, such as docker and dbs. We earned a very good grade on the project and impressed the teacher with our presentation. 
     * R
+        * Leading this project, sure I learned more about docker and dbs and the tech stack we used, but the more important lesson that I learned was how to lead and take ownership of a project while keeping a team involved and motivated and how to use consistent effective communication to overcome conflicts and earn trust of the team.
     * S
+        * So in short, I simply gave people a voice, worked along side them, effectively communicated and dove deep into the whys of the projects to clear confusion and iron out details and overcome conflicts to keep my team motivated and my project at the highest standard.
 <hr >
 
 * How have you used data to develop a strategy? 
     * P 
-        * I think that data is very important into building a strategy. Data such as, customer feedback, team feedback, and 
+        * I think that data is very important into building a strategy. Data such as, customer feedback and customer behaviour data based off of metrics gathered by products are all extremely important into developing a strategy. Without this youd be blindly creating a project with little to no direction.
     * S
+        * In my OS class for our final project, we were tasked to 
     * T
     * A
     * R
