@@ -13,69 +13,74 @@ Summary
 <hr>
 
 * Tell me about a time when you were faced with a problem that had a number of possible solutions. What was the problem and how did you decide what to do? What was the outcome? 
-    * P 
-        * So yea whenever I am faced with an issue or given a task that has multiple possible solutions I like to take a step back and dive deep into each of the possible solutions. Which one is more scalable, which is easier to implement, which is more simple, and more importantly just which one would the user overall like better. So this reminds me of a time when:
-    * S 
-        * So yea, Good question in my highest role of being VP at SCE, the largest engineering club at my university, I was leading the dev team  to create a brand-new messaging service for our members. I took this initiative because I noticed that I wasnt seeing new membeers in the club as much as I used to, so I sent out a survey to the members and foudn that my thoughts were in fact true. The members were dissasitisfied with the "cool code" that we promised them to be delivered or lack there of the code. I also found that we had 40% less new member sign ups from the year prior. 
-    * T
-        * After I found that out, I knew that I needed to take action, I could not let our club members, basically our customers down, I needed good feedback from them. nd being the new VP I also needed to do this while to earn the trust of my new team. I decided it would be best to move quick but still dive deep into all the possible solutions to make sure we selected the most simple, scalable, and portable solution. As we needed the solution to be able to run on an ESP32 
-    * A
-        * Firstly, before I start coding, I like to take my whiteboard out and draw what I have, and what needed to be implemented. Like a simple diagram. I saw that our current infustructure could not handle real time messaging so I could go multiple routes, I could implement SSEs or I could have just another API that can be scraped for new messages. I did research on which one would be better for our use case, messages sent on between users and will be displayed on an lcd screen with an esp32. After looking at my requirements, userbase, and server loads, I chose SSEs as my go to for the server side, and the client would connect via ESP32 and messages would be displayed on the lcd screen. I wrote some test files for both the SSE and esp32 and showed my findings to the dev team and the president who both liked my solution, and were excited to begin development. I worked closely with my team, developing the SSEs necessary and integrating it with our current infrustructure on our website and I worked with some other dev team on writing the embedded software for the esp32s that were to be given to our members. Despite my team having little experience with SSEs, networking, and embedded software I was able to work alongside them and teach them the skills necessary. 
-    * R 
-        * By the end of our deadline, My team succesfully delivered the fully functional messaign service to our members. With our new engagement by Members and the fact that they found it "cool" we were able to have an increase of over 35% the following semester! And it looks like that trend is going way on up thanks to our summer internship program which I am leading. The project also enhanced our clubs reputation which lead to even more interest and participation in our events. 
-    * R
-        * This experience taught me more things than just embedded software and SSEs. It taught me that diving deep into possible solutions rather than picking 1 and rolling with it leads to a much smoother transition from code to production. It taught me the value of choosing our members first, and to earn trust is to consistenly communicate effectively. 
     * S
-        So to answer the question in short, as my first project as VP, I took initiative to tackle our declining member sign up and satisfaction and created something new and simple to boost member engagement and interest. I first dove deep into the possible solutions, presented my solutions, tested it, and then began development along side my team, then rolled the code out.   
+        * New Role as VP of SCE, Club facing declining new sign ups, sent out a survey to members, wanted messaging service and hardware project
+        * Thought of the project of messaigng service on website with esp32s and lcd screens where users can see message, and presented to president who approved of the project idea.
+    * T
+        * I had only 4 weeks left until the end of the semester, needed to take action fast, but there were multiple ways of going about the back end that affect the implementation of the code on the esp32s.
+        * I needed to dive deep into each of the possible implementations, and pick the one that is the best combination of easier to implement, simple, matching the skillset of my team and the one that would deliver the best results to the members
+        * I also had to institute meetings for development checkups, better communication, to earn the trust of my team and president. 
+    * A
+        * I dove deep into each of the possible solutions, I focused on the 4 criteria most important to me and I studied each solution weighing their positives and negatives.
+        * I then presented my solution to the President and Dev team, who after testing some test files I had written, were excited to begin developing.
+        * I delegated work corresponding to their interests, and began working along side them as well, holding workshops for new skills, developing along side them to write the SSE on the back end and the embedded software for the esp32s.
+    * R
+        * My team and I were able to meet the deadline of the 4 week semester, delivered the quality product to the members who loved the project and my team and president who now trusted me to lead and develop future projects. e
+        * Interest was back in the club, and this showed the following semester where our sign ups went from the 2, all the way to 10. 
+    * R
+        * Doing this project I did learn SSEs and some embedded software, but most importantly I learned how to choose from multiple possible solutions.
+        * By diving deep and strategizing off of my parameters I was able to choose the most effective solution out of the several options for my team and members.
 <hr >
 
 * When did you take a risk, make a mistake, or fail? How did you respond? How did you grow from it? 
-    * P
-        * So I believe that making mistakes and failing is going to happen to anyone and everyone, no matter the experience level but I believe that mistakes and failures are only failures if you do not learn or grow from them. Although making mistakes can sometimes be costly it matters a lot to go back into your previous thought process dive deep into where you failed, and take ownership of that to change it do deliver a quality result.
     * S
-        * I actually have a really good story for this, when I was a up coming junior in college, I was a part of the dev team at the engineering club, and I was and still am eager to learn. I noticed that the development on current projets in the room was awfully slow due to people not being able to work on projects outside of the room, which meant usually for only a couple of hours between monday - thursday. So in total people could only work on projects on average 5-6 hours a week.
+        * When I was a dev team member during the summer, I noticed slow development due to people not being able to develop outside of the room.
+        * People were really only developing 2-3 hours a week due to this. 
     * T
-        * I thought simple enough I am going to make a VPN, that will solve that issue and bring access to the room remortely. It needed to be invisible to SJSU as they would take it down if they found it. 
+        * I gave myself the task of developing a VPN that the dev team could connect to and develop outside of the room. 
     * A
-        * I immediately began to drawing a solution, where I would have openVPN on an EC2 instance and have a router as a client to that. I drew the solution and presented it to some alumni who, approved. This is where my mistake lies, I did not dive deep into the solution and each of its parts to figure out if this is actually right or if there is another simpler solution I could implement. I went head first instead of brain first. Because of these mistakes, I spent a month trying to implement something that was just wrong. It was only when I went back really thought about each one of my components, each file, each command, expanded my knowledge and thought about other factors too such as scalability and frugality I came to the right solution. I redrew my solutions, I represented it with the alumni who was impressed that I was able to figure it out, and then approved it again. I began to work on a test network where I tested my work on with multiple factors, then after vigurous testing put it in production in the engineering room.
+        * I began development immediately, grabbed a raspberry pi flashed it with openWRT, set up an EC2 instance, put openVPN on it, and tried "connecting" the raspberry pi to it, and was stumped as to why it wouldnt work. 
+        * I Spent the next month trying this solution before I realised that I needed to take a step back, and delve deeper into each of the components of my project and make sure each one was working as intended or was correct in general. 
+        * I found many errors in my original solution, which I was only able to fix after going back and looking more into my project and expanding my knowledge.
+        * I fixed my errors, which were in the ccd file, created a test networking and showed some alumni and president, who after testing my solution further, were excited to implement this into the club.
     * R
-        * It has been running problem free for about 6 months now, and has greatly boosted our productivity. Our existing memberes are now able to put double the hours into their projects and it has increased our membership sign up as new members can work on projects they never could before. Overall it has boosted our interest in the club by over 20%.
+        * The club dev team were now able to develop as many hours as they wanted to, averageing now about 6-7 hours a week 3x what they were before. 
     * R
-        * I wouldnt count this as a complete failure, I was able to take my mistakes, learn not only how to configure a VPN but how and why to dive deep into the project before working on it. Why I it is important to focus on simplicity of a solution. I most importantly learned to take ownership of my mistakes and how to turn failures into future succeses.
-    * S
-        * So to answer that question I made a mistake when diving too quick into a project I wanted to do and learned important principles from it such as taking ownership, diving deep, and simplifying.
+        * I did learn about networking and linux, but what I learned more about that was I learned how to overcome setbacks, and how to effectively respond which was to take steps back and reevaluate the solutions. 
+        * Is the solution valid or should I scrap it?
+        * I grew into a person that is not afraid of minor setbacks because that just means its an oppurtunity for a major come back. 
 <hr >
  
 * Describe a time you took the lead on a project. 
-    * P
-        * Taking the lead on a project is something that is exteremely important. I think that the leader of the project has full owner ship of the project and its sucess or failure should be their responsibility. Leading a project is not  telling people what to do its, communicating effectivley to earn their trust, learning how to disagree and come to a common solution adn commit to it, its keeping your project to the highest possible standard while keeping the project in bounds/
     * S
-        * I have been leading a summer internship program for the past 2 years for SJSU where me and another alumni get togehther, plan and develop projects, develop design docs, and make videos on topics and then "hire" interns. From interviewing, to presenting the projects to faculty and staff, I am with my interns the entire step of the way. Last summer was actually the first time I got to do this. I had a total of 7 interns who did not know how to give presentations, linux, netowrking, etc and the Faculty and staff chose me and another alumni to lead a learning focused internship.
+        * In college Teacher assigned groups of 4 at random to create a class project, could be whatever tech stack, it just needed to be dockerized, database, front end, and back end
+        * I had a short 5 weeks to do this project, and my group was unfamiliar with docker, most databases, but had skills in front end development. 
     * T
-        * I developed a project that is music player on a raspberry pi it streams youtube audio on a linux machine. The goal of this was to dive deep into the inner workings of all points of the project, from understanding how audio is played on a Linux machine, to how to make an API (what is https), earn their trust through effective communication and check ups, and finally deliver results that the faculty and staff of SJSU love. 
+        * I knew that I needed to take the lead of this project, the projects success or failure would be on me, and that I needed to institute meetings with my team to teach skills, develop effectively, and most importantly earn their trust. 
     * A
-        * In the conception of the project, I worked with my alumni partner and built a solution that was simple, scalable, but worked extremely well. I had to make sure that the project was big enough to excite the intern, but not too big to daunt them. I wrote a doc on steps of how to do this leaving enough ambiguity to give the intern some freedom to make their own choices which excited them to do the project. When I finally gave my interns the doc after interviewing them, that is when the real work started. I had to check in with them multiple times, make sure they were on track, keep them motivated, and made sure that the code I wrote with them was up to my standard.
+        * I meet with them once a week for overall development progress and meet with them individually multiple times across the week to develop along side them, check in with them.
+        * In the event that conflicts did arise, I would make sure that they were heard, and understood the solution and why it is like that.
     * R
-        * Upon finishing the internship, the faculty and staff loved their project. The faculty and staff were impressed with the knowledge and skills the interns got from us. They were able to learn the presentation and programming/networking skills and got industry relevant experience such as learning how to work with a team.
+        * I ended up earning the trust of my group, finishing the project on time, and delivering a quality product that the teacher was impressed with. 
     * R
-        * Sure leading the project made me learn more about networking, bash, and linux as a whole but the soft skills it taught me were more important. It taught me how to lead a project from start, an idea, to finish, in production. I learned how to hold a team to the highest possible standards, I learned how to simplify tasks to be easily implementable, and I learned how to earn trust with a team. 
+        * Although I did learn a little more on docker, database, and full stack development, the soft skills I picked up were more valuable than this. 
+        * I learned how to earn trust of a new team, how to keep members motivated, and ensure consistent quality development through frequent meetings with members. 
 <hr >
 
 * What did you do when you needed to motivate a group or promote collaboration on a project? 
-    * P 
-        * Motivating a group and increasing collaboration on a project is something that is crucial to the quality of the product. Without a motivated team you get an equally good project. Firstly taking ownership of the project is a must, from there you need to earn the trust of the team and be ok with disagreeing. When disagreements do happen it is important to listen to the other person and then come to a decision and commit to tit then. 
     * S
-        * In one of my classes we had to make a project where I was assigned a group of 4 (including me), and I had to build a project from start to finish, with scrum meetings weekly, implementing agile methods and getting everyone to contribute. I was given freedom of the project in terms of tech stack, but it needed to be a fullstack website with a database deployed with docker, but some of my team members were not familiar with docker or dbs. 
+        * During my collegient career, I lead an internship program for 2 years for SJSU where me and another Alumni would interview candidates, allow them to choose a project and then lead them through from start to finish in that project and then deliver a presentation on their work infront of faculty and staff to teach them industry level skills to jumpstart their career.
+        * This was my first time running this internship and this summer the project I was leading was development on a video streamer on a raspberry pi using RTMP.
     * T
-        * I had to take ownership of the proejct, dive deep with my team to explain inner workings of the tech stack that I chose with my team. And effectively and consistently communicate to earn trust and build a quality project. All this needed to be done in a tight time frame without sacrificing the quality of the project. 
+        * I had 7 interns this summer eager to learn who were extremley motivated at first but their motivation began to dwindle after running into issues, and I needed to keep them motivated and earn their trust as the project lead.
     * A
-        * I setup weekly meetings with my group, and always asked the person with the least experience to open the meetings because that way his ideas werent influenced by others. This really motivated him to always come prepared to the meetings. I worked alongside my group during the meetings and outside to dive deep into topics and explain why things were working the way they were and if they had any disagreements to always listen to them, and make sure they are heard. Doing this I was able to earn the trust of my team, and deliver quality updates to the teacher (my boss in this situation). 
+        * I then understood that I needed to institute frequent meetings with the interns to get them through the bugs, to keep them motivated through the bugs. 
+        * I organized workshops to keep my interns learning, I taught them the skills necessary and also sometimes random skills they were just interested in.  
     * R
-        * I was able lead my team into delivering an outstanding final presentation of our project and along the way I was able to teach the skills they were not afluent in yet, such as docker and dbs. We earned a very good grade on the project and impressed the teacher with our presentation. 
+        * I was able to keep my interns motivated who finished the project and delivered a presentation that impressed the faculty and staff, and my interns also ended up getting internships at major companies one who is interning at amazon.
     * R
-        * Leading this project, sure I learned more about docker and dbs and the tech stack we used, but the more important lesson that I learned was how to lead and take ownership of a project while keeping a team involved and motivated and how to use consistent effective communication to overcome conflicts and earn trust of the team.
-    * S
-        * So in short, I simply gave people a voice, worked along side them, effectively communicated and dove deep into the whys of the projects to clear confusion and iron out details and overcome conflicts to keep my team motivated and my project at the highest standard.
+        * Managing this internship is an experience I looked forward to every time I did it, it taught me so much on how to keep a group motivated, it taught me that inordor to keep them motivated I needed to keep them first and foremost interested on their bottom line. 
+        * Why is the project x good for their interest y and then guide them through project 
 <hr >
 
 * How have you used data to develop a strategy? 
@@ -99,4 +104,10 @@ Summary
 * Why Amazon? 
     * I beilieve that Amazon is great for people who like to build things. This is me. I love to build things, showcase my enginuinity, and take ownership of the code that I write. Ive heard from people who work there that this is company is not for people who want to sit back and let things happen. I want to make things happen. I want to meet smart people, I want to learn new things, I want to build new things with impact, and I believe amazon will give me the perfect platform to do this. 
 
- 
+
+
+
+
+<hr>
+
+* Talking Points 
