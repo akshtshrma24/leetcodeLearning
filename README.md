@@ -7,6 +7,8 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [dp](./notes/dp.md)<br>
 [graphs](./notes/graphs.md)<br>
 [interviewPrep](./notes/interviewPrep.md)<br>
+[interviewPrepAmazon](./notes/interviewPrepAmazon.md)<br>
+[interviewPrepHivemapper](./notes/interviewPrepHivemapper.md)<br>
 
 ## Problems 
  ### Total:56

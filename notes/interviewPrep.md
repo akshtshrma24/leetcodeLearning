@@ -110,4 +110,17 @@ Summary
 
 <hr>
 
-* Talking Points 
+
+* Taking initiative 
+* Learning and Being curious 
+* Backbone - Disagreeing and committing 
+* Ownership
+
+
+Introduction
+Im Akshit Sharma, you can call me Andy
+I graduated frmo San Jose State University in May 2024, but I have been working part time as a software engineer at Windsor, its a small care facility. 
+I lead the Engineer Club Last Year as the Vice President, and year prior as Dev Team Lead, during my leadership there I initiated number of projects like RFID door sensors and messaging with esp32s and creating a Road Warrior VPN.
+I mentored interns for a Summer internship program by SJSU to teach industry relevant skills such as embedded software and networking. I collobrated on and posted multiple videos regarding docker, and vpns on youtube. 
+As part time/hobby on the weekends I cut hair, and people think im good. 
+And I can also talk about my past projects in details if youd like. 
