@@ -10,7 +10,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [interviewPrepHivemapper](./notes/interviewPrepHivemapper.md)<br>
 
 ## Problems 
- ### Total:56
+ ### Total:60
 [1arrays](./problems/1arrays.md)<br>
 [2linkedlist](./problems/2linkedlist.md)<br>
 [5dp](./problems/5dp.md)<br>
@@ -25,13 +25,16 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [62twodp](./problems/62twodp.md)<br>
 [64dp](./problems/64dp.md)<br>
 [70dp](./problems/70dp.md)<br>
+[71stack](./problems/71stack.md)<br>
 [74binarysearch](./problems/74binarysearch.md)<br>
 [75arrays](./problems/75arrays.md)<br>
+[88array](./problems/88array.md)<br>
 [90backtracking](./problems/90backtracking.md)<br>
 [100tree](./problems/100tree.md)<br>
 [102tree](./problems/102tree.md)<br>
 [103tree](./problems/103tree.md)<br>
 [121slidingwindow](./problems/121slidingwindow.md)<br>
+[125twopointer](./problems/125twopointer.md)<br>
 [128arrayhashing](./problems/128arrayhashing.md)<br>
 [130graphs](./problems/130graphs.md)<br>
 [136bitmanipulation](./problems/136bitmanipulation.md)<br>
@@ -56,6 +59,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [543tree](./problems/543tree.md)<br>
 [647dp](./problems/647dp.md)<br>
 [651arrayshashing](./problems/651arrayshashing.md)<br>
+[670two_pointer](./problems/670two_pointer.md)<br>
 [706hashmap](./problems/706hashmap.md)<br>
 [746dp](./problems/746dp.md)<br>
 [853stack](./problems/853stack.md)<br>
