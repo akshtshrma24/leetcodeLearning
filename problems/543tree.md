@@ -1,35 +1,34 @@
-# 543 
+# 543
 
-end game
+real end game
 
-```c++
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
-class Solution {
-public:
-    int track = 0;
-    int dfs(TreeNode* root){
-        if(!root) return 0;
-        int l = dfs(root->left);
-        int r = dfs(root->right);
-        track = max(track, l + r);
-        return max(l, r) + 1;
-    }
+```py
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+        ans = 0
+        
+        def dfs(root):
+            nonlocal ans
+            
+            if not root: 
+                return 0
 
-    int diameterOfBinaryTree(TreeNode* root) {
-        dfs(root);
-        return track;
-    }
-};
+            left = dfs(root.left)
+            right = dfs(root.right)
+
+            ans = max(ans, left + right)
+
+            return max(left, right) + 1
+    
+        dfs(root)
+        return ans
 ```
-dfs global track variable other wise if you dont track can get set to 2 when you have like 1 2 bc it goes 1 then increment 1 then goes to 2 then 2 goes to Null but 1 to 2 is 1 then it adds 1 more in the return line 
-so track gets set to 2
+
+this ones quite easy you take the left and right, diameter can be not just the longest path from left to right i nthe root node
+so you take the maximum of the left + right or the max alread, then return the longest path + the current node
