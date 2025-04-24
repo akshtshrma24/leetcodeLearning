@@ -24,3 +24,8 @@ class Solution:
             r += 1
         return res
 ```
+
+
+realy easy just loop through it, create a window where the counter <= k and if counter is less than k just update res
+
+while its bigger update left side of teh window decrementing counter for any 0s
