@@ -10,7 +10,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [interviewPrepHivemapper](./notes/interviewPrepHivemapper.md)<br>
 
 ## Problems 
- ### Total:89
+ ### Total:95
 [1arrays](./problems/1arrays.md)<br>
 [2linkedlist](./problems/2linkedlist.md)<br>
 [5dp](./problems/5dp.md)<br>
@@ -26,6 +26,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [46backtracking](./problems/46backtracking.md)<br>
 [48mathgeometry](./problems/48mathgeometry.md)<br>
 [50recurs](./problems/50recurs.md)<br>
+[53array](./problems/53array.md)<br>
 [56arrays](./problems/56arrays.md)<br>
 [62twodp](./problems/62twodp.md)<br>
 [64dp](./problems/64dp.md)<br>
@@ -68,11 +69,14 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [268arrays](./problems/268arrays.md)<br>
 [300dp](./problems/300dp.md)<br>
 [301dfs](./problems/301dfs.md)<br>
+[316stack](./problems/316stack.md)<br>
 [338bitmanipulation](./problems/338bitmanipulation.md)<br>
+[339bfs](./problems/339bfs.md)<br>
 [415strings](./problems/415strings.md)<br>
 [416dp](./problems/416dp.md)<br>
 [417graphs](./problems/417graphs.md)<br>
 [523subarray](./problems/523subarray.md)<br>
+[528bsearch](./problems/528bsearch.md)<br>
 [543tree](./problems/543tree.md)<br>
 [560hashmap](./problems/560hashmap.md)<br>
 [637twopointer](./problems/637twopointer.md)<br>
@@ -82,6 +86,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [670two_pointer](./problems/670two_pointer.md)<br>
 [680twopointer](./problems/680twopointer.md)<br>
 [706hashmap](./problems/706hashmap.md)<br>
+[708linkedlist](./problems/708linkedlist.md)<br>
 [746dp](./problems/746dp.md)<br>
 [791string](./problems/791string.md)<br>
 [853stack](./problems/853stack.md)<br>
@@ -97,6 +102,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [1539array](./problems/1539array.md)<br>
 [1570loop](./problems/1570loop.md)<br>
 [1603ood](./problems/1603ood.md)<br>
+[1650tree](./problems/1650tree.md)<br>
 [1762loop](./problems/1762loop.md)<br>
 [2405arrays](./problems/2405arrays.md)<br>
 [9999interview](./problems/9999interview.md)<br>
