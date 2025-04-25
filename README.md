@@ -10,7 +10,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [interviewPrepHivemapper](./notes/interviewPrepHivemapper.md)<br>
 
 ## Problems 
- ### Total:98
+ ### Total:101
 [1arrays](./problems/1arrays.md)<br>
 [2linkedlist](./problems/2linkedlist.md)<br>
 [5dp](./problems/5dp.md)<br>
@@ -64,6 +64,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [206linkedlist](./problems/206linkedlist.md)<br>
 [213dp](./problems/213dp.md)<br>
 [215heap](./problems/215heap.md)<br>
+[226tree](./problems/226tree.md)<br>
 [227loop](./problems/227loop.md)<br>
 [232stacks](./problems/232stacks.md)<br>
 [236tree](./problems/236tree.md)<br>
@@ -100,6 +101,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [1004window](./problems/1004window.md)<br>
 [1047stack](./problems/1047stack.md)<br>
 [1143twodp](./problems/1143twodp.md)<br>
+[1209stack](./problems/1209stack.md)<br>
 [1249stack](./problems/1249stack.md)<br>
 [1492arrays](./problems/1492arrays.md)<br>
 [1539array](./problems/1539array.md)<br>
@@ -108,4 +110,5 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [1650tree](./problems/1650tree.md)<br>
 [1762loop](./problems/1762loop.md)<br>
 [2405arrays](./problems/2405arrays.md)<br>
+[3438map](./problems/3438map.md)<br>
 [9999interview](./problems/9999interview.md)<br>
