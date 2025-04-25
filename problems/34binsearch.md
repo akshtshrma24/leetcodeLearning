@@ -26,3 +26,10 @@ class Solution:
                     l = m + 1
         return i
 ```
+
+
+this is normal binary serach, unless I find it if i find it then in that case i need to check if there is a left bias, if there is 
+search the left side 
+if not search the right side 
+
+return the index

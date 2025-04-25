@@ -37,3 +37,4 @@ class Solution:
             
         return word_pointer == len(word) and abbr_pointer == len(abbr)
 ```
+low key easy af, no explanation needed

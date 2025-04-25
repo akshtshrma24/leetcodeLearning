@@ -15,3 +15,5 @@ class Solution:
         return max_sum
 
 ```
+
+this one is also easy once you know the trick 
