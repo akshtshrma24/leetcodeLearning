@@ -10,7 +10,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [interviewPrepHivemapper](./notes/interviewPrepHivemapper.md)<br>
 
 ## Problems 
- ### Total:109
+ ### Total:111
 [1arrays](./problems/1arrays.md)<br>
 [2linkedlist](./problems/2linkedlist.md)<br>
 [5dp](./problems/5dp.md)<br>
@@ -32,6 +32,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [56arrays](./problems/56arrays.md)<br>
 [62twodp](./problems/62twodp.md)<br>
 [64dp](./problems/64dp.md)<br>
+[65array](./problems/65array.md)<br>
 [70dp](./problems/70dp.md)<br>
 [71stack](./problems/71stack.md)<br>
 [74binarysearch](./problems/74binarysearch.md)<br>
@@ -39,6 +40,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [76twopointer](./problems/76twopointer.md)<br>
 [88array](./problems/88array.md)<br>
 [90backtracking](./problems/90backtracking.md)<br>
+[92linkedlist](./problems/92linkedlist.md)<br>
 [100tree](./problems/100tree.md)<br>
 [102tree](./problems/102tree.md)<br>
 [103tree](./problems/103tree.md)<br>
