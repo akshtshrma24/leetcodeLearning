@@ -28,4 +28,4 @@ class Solution:
         return temp
 ```
 
-this one is easy, just go down the list appending the current number to curr_val and at the end just sum it
+this one is easy, just go down the list appending the current number to curr_val and at the end just sum 
