@@ -51,13 +51,41 @@ both offer GPUs in the cloud for AI workflows but lambdalabs has unparalleled pe
 * how do repairs work? 
 * Do you guys have tools to track repairs? 
 * do you guys keep the history of the server say im monitoring a server and taken out of server, is there a tool to track of the server was it bad before has it needed repair before 
-* how do you guys monitor the fleet
-* do you guys have ssh access to the servers if yes or no,
 * what languages do you guys use besides Go and python, what tools do you guys use anectodadley 
-* are the data centers entirely lambdas or do they rent out the datacenters 
-* in the office do you guys have machines you can interact with directly or no
 
 
 * Nvidia SMI, tells you what gpus plugged in and what not
 
-## Evans questions elaborated 
+## Evans questions elaborated
+
+* How often do you guys interact with Nvidia and their team 
+  * given their strong relationship with Nvidia it is important to know how often they interact with their team 
+* Do you guys receive software to test the gpus from Nvidia, 
+  * Evan gets software to test Nvidia GPUs these tests consist of FIND OUT HERE <_____>
+* How do you guys interpret the test results from the GPUs
+  * will make more sense when find out what tests consist of 
+* Nvidia SMI - nvidia system managment interface
+  * command line utility based on Nvidia Manamgnet library (NVML)
+  * designed to help monitor and manage nvidia gpus
+  * allows you to query the GPU device state 
+  * allows the change of the GPU device state
+  * you can get cool metrics of the GPU like fan speed, and tx and rx througput
+* how do you guys monitor the fleet right now what tools do you guys use 
+
+
+## Bare Metal Configuration 
+
+* DB Control 
+  * I had 3 pis each running docker containers that would take /dev/file that would correspond to the usb port 
+  * send bits through pymodbus to the machines got metrics through that 
+  * I had 1 ansible system that would manage all of these 
+
+## 2+ years of configuration 
+
+* I have used Ansible extensively in my past, through self projects and professionaly
+* Most notable at PayPal, where I was given the oppurtunity to work along side another team to setup a local setup of mock projects we had in PayPal. 
+  * It was 6 servers and the reason that I was given this oppurtunity is because of a self project I did where I had 6 raspberry pis i deployed wiht ansible 
+  * and basicallly what I did there was provision the 6 servers 
+  * wrote various playbooks the main ones were creating ssh keys updating the apt 
+  * playbooks to deploy python scripts across all of them for metrics, had to implement top features in python such as cpu usage memory and swap memory usage 
+  * deployed docker containers across the ones that we were testing 
