@@ -89,3 +89,100 @@ both offer GPUs in the cloud for AI workflows but lambdalabs has unparalleled pe
   * wrote various playbooks the main ones were creating ssh keys updating the apt 
   * playbooks to deploy python scripts across all of them for metrics, had to implement top features in python such as cpu usage memory and swap memory usage 
   * deployed docker containers across the ones that we were testing 
+
+
+## 2+ years of golang and python 
+
+## Questions for the Culture fit 
+
+* STAR Specific Example
+
+* Tell me about a time 
+  * when you had a team member that wasnt pulling their weight 
+    * who the team member was what the problem was the result of it
+      * natalya and i were given this project, i was responsible for this piece, 1 week into the project natalya does nothing, schedule the time with natalya to teach her, 
+  * when you had a disagreement with the team, what were the steps you took 
+  * when you had to make a difficult decision under pressure.
+  * when you handled the problem outside the scope of work, try to find out information 
+  * when you had to pivot on a project that was mostly complete 
+    * YC 
+    * have backup 
+  * when you convinced the team to agree with you but outcome was negative 
+    * take a look at the videos
+    * low ego
+  * when you pushed back against the project or aspect of the project you disagreed with 
+  * when you had a project worked on that would have gone better without your involvment
+* what are the 
+
+## Dad Linux study what to 
+
+```bash
+fsck 
+/etc/fstab
+systemctl
+journalctl 
+dmesg 
+oom 
+ps 
+htop 
+top
+vmstat
+iostat
+/proc
+ulimit # how many file handdles what is a file handle how many files user can write to read to per user and system wide
+# file descriptor
+inode # file 
+du # difference between these 2
+df 
+# df shows file system usage, when delete a file doesnt release space, 
+# if file is open and delete it doesnt release the space
+lsof # list of open files 
+lsusb # list of us 
+lspci
+
+sed 
+awk 
+
+mount -v # check what file system you have 
+# mount -v # check what file system you have alternative V
+cat /etc/fstab
+
+# making file system 
+#   raw device
+#   mkfs
+
+# start at boot 
+# create service file, enable it, start it with systemctl 
+
+
+# Memory amangement ============
+# paging in linux memory allocation, memory happens with linux in paging
+# swapping, 
+# ========
+
+# se linux
+# Secure Linux
+# 
+
+
+# file descriptor
+
+# static ip with netplan 
+# /etc/netplan/ yml
+
+# nfs
+# how to export a file system 
+
+# stty sane
+
+# kill
+#   sighup 
+#   different -x 
+
+# stickybit 
+#
+
+# how can users change the password but not edit the file 
+# file attributes
+
+```
