@@ -186,3 +186,13 @@ cat /etc/fstab
 # file attributes
 
 ```
+
+
+## Command study 
+
+- `fsck` : file system check, checks for inconsistencies in the file system and cleans them, disk has unreadable sectors, inodes hard link counts are different
+- `/etc/fstab` : mounts file system at boot
+- `systemctl` : used to control the systemd services, start, stop, enable/disable
+- `journalctl` : used to view logs, stores them in binary, allows you to search, view, and filter them `journalctl -u service` allows you to view the logs from that service used when debugging services
+- `dmesg` : different freom journalctl because it can only view kernel logs, non persistent cleared on reboot, used to debug hardware or kernel
+- 
