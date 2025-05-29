@@ -91,8 +91,6 @@ both offer GPUs in the cloud for AI workflows but lambdalabs has unparalleled pe
   * deployed docker containers across the ones that we were testing 
 
 
-## 2+ years of golang and python 
-
 ## Questions for the Culture fit 
 
 * STAR Specific Example
@@ -195,4 +193,50 @@ cat /etc/fstab
 - `systemctl` : used to control the systemd services, start, stop, enable/disable
 - `journalctl` : used to view logs, stores them in binary, allows you to search, view, and filter them `journalctl -u service` allows you to view the logs from that service used when debugging services
 - `dmesg` : different freom journalctl because it can only view kernel logs, non persistent cleared on reboot, used to debug hardware or kernel
-- 
+- `ps` : used to see processes 
+- `htop top` : used to see top processes htop more human readable scroll mouse 
+- `vmstat` : virtual memory statistics, mem usage, cpu activity swap usage, io performance, system processes, gives real time snapshot of how your cpu and memory is performing, `vmstat 2` refreshes every 2 seconds
+- `iostat` : similar to vmstat because it shows you hardware statistics how is the hardware performign
+- `/proc` : used to virtual file system not stored on disk, mounted on boot, reflects current state of kernel and system, hardware details, kernel settings, process information, memory cpu device stats, 
+- `ulimit` : how many files I can write to, if you set it too low you wont be able to boot
+- `inode` : these are a set amount, you can only write this many of files in that directory
+- `du` : disk usage, how much disk usage is being used by the directory mentioned 
+- `df` : disk fyle system shows the disk free space on the available mounted file systems
+- `lsof` : ls of open files
+- `lsusb` : shows the information about the available usb ports
+- `lspci` : shows information about the pci buses and the devices connected to them 
+- `sed` : stream editor, use like this `sed 'expression' file`
+- `awk` : reads a file line by line and splits them allows you to do operations on them
+
+
+## Culture Fit questions with answers 
+* Tell me about a time 
+  * when you had a team member that wasnt pulling their weight 
+    * S
+      * During my time at DB Control, I was tasked with developing a remote monitoring stack, I chose integrating Prometheus and Grafana with low level pymodbus code to get metrics and build pipelines to the stack, I was on a short deadline and I needed to get going fast. We had about 15+ machines to test with, so we needed to move.
+    * T
+      * As the project progressed I noticed a lot of the key dashboards were missing or misconfigured and the prometheus metrics werent being visualized. This is a bottle neck to the rest of the team as they need to view the data. 
+    * A
+      * I reached out to the engineer who was tasked to do this, turns out they were new to how PromQL worked and how grafana and prometheus worked. I offered to set up a meeting with him just a 1:1 and we went over how promql worked how grafana and prometheus worked why we chose this stack, and even made a dashboard with him in kind of like a pair programming type of way. I showed him how to create dashboards, make custom promql statements, how to dynamically label the points on the charts, and about as much as I could show him. 
+    * R
+      * Now that the engineer had a clear understanding of how to use prometheus, why we used it, and how to make the grafana dashboards, We were able to deliver relevant dashboards for all of the machines in the time that we had it. The dashboards became critical, allowing the test engineers to not have to be present on the actual site, combined with the other software I wrote, we sped up the amount of tests that could be done and the reliability of our data. 
+  * when you had a disagreement with the team, what were the steps you took 
+    * S
+      * At Db control, my team and I were discussing what monitoring stack we should go with. Some of the team mates wanted to use a commercial solution like Datadog as it promised greater up time, quicker setup, and out the box dashboards, but I was advocating for a different approach. I wanted to go with a self hosted approach more specifically Grafana and Prometheus, becuase we had sensitive government data, and for our scale a self hosted approach would fit our needs best. 
+    * T
+      * I needed to convince my team that Grafana and Prometheus was what we should go with, but I also wanted to hear them out because me being wrong is always a possibility. I wanted to show them that Grafana and prometheus would be cheaper, integrate seemlessly in the current infrastructure, 
+    * A 
+      * I prepared a detailed comparison that I would go over with the team during our weekly meetings. The main things I covered were Cost,, integration, and made a small poc of it. I showed them that the costs of running Datadog were much higher than Grafana and prometheus becuase well it was free. I showed them how easy it was to integrate prometheus into the current stack I had deployed which were raspberry pis. I also implemented it with mock data on a server I had at home and showed them through a VPN I made. There were concerns but I talked through them by proposing documentation and knowledge sharing sessions I could have.
+    * R
+      * I convinced the team to go with Grafana and prometheus, we adopted prometheus and Grafana which allowed us to remotely monitor our machines, and I even onboarded the rest of the machines. This process also fostered a much better work culture there as engineers didnt have to sit next to the machines writing things down on paper as their form of collecting data. We also didnt have to worry abotu the costs of Data Dog. 
+  * when you had to make a difficult decision under pressure.
+  * when you handled the problem outside the scope of work, try to find out information 
+  * when you had to pivot on a project that was mostly complete 
+    * YC 
+    * have backup 
+  * when you convinced the team to agree with you but outcome was negative 
+    * take a look at the videos
+    * low ego
+  * when you pushed back against the project or aspect of the project you disagreed with 
+  * when you had a project worked on that would have gone better without your involvment
+* what are the 
