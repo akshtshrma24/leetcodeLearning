@@ -9,6 +9,7 @@ Welcome to my Leetcode Problems, these are my notes for the problems that I am s
 [interviewPrepAmazon](./notes/interviewPrepAmazon.md)<br>
 [interviewPrepFortinet](./notes/interviewPrepFortinet.md)<br>
 [interviewPrepHivemapper](./notes/interviewPrepHivemapper.md)<br>
+[interviewPrepLambda](./notes/interviewPrepLambda.md)<br>
 
 ## Problems 
  ### Total:115
