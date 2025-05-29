@@ -230,7 +230,17 @@ cat /etc/fstab
     * R
       * I convinced the team to go with Grafana and prometheus, we adopted prometheus and Grafana which allowed us to remotely monitor our machines, and I even onboarded the rest of the machines. This process also fostered a much better work culture there as engineers didnt have to sit next to the machines writing things down on paper as their form of collecting data. We also didnt have to worry abotu the costs of Data Dog. 
   * when you had to make a difficult decision under pressure.
-  * when you handled the problem outside the scope of work, try to find out information 
+    * S
+      * While working at PayPal I worked on the MRE team, which was basically Merchant Reliability Engineers and I worked on the development side of things. We had just began integrating several key merchants including Shopify, and all of their merchants, and Apple Pay. Throughout this process we got a lot of false Alerts because of the new integration of merchants ie Shopify and Apple Pay.
+    * T
+      * I had to quickly decide what to do and how to manage these alerts because I was getting messages from the SRE team that these alerts are mostly false and theres nothing to worry about. They were getting overwhelmed with the amount of alerts, and I had to quickly decide how can I fix these.
+    * A
+      * I was in fact under a lot of pressure at this time, but I acted quick. I analyzed Datadog dashboards and their corresponding alert patterns and noticed that the thresholds were a lot lower than what they should be due to not taking into account the fact that we are onboarding many more merchants. I suppressed the ones that I deemed problematic and quickly realised that I could make what are called dynamic thresholds using the rolling standard deviation of the metric. I then did that for the problematic datadog dashboards. Got approval from my manager to roll it into prod. During this time of suppressed alerts, I had to tell them to manually look at the alerts but it will only be for a couple of hours.
+    * R
+      * This approach quickly returned our number of alerts to what they were before we started the integration of new merchants. It actually improved the accuracy of the alerts than what we had before because for some reason we had hard coded values, but after changing that. Our false positives went down by a lot. 
+  * when you handled the problem outside the scope of work
+    * S
+      * During PayPal I was a Software Engineer on the MRE team, I was not on the SRE team so I was not involved much if at all in the provisioning of the Control Room servers, what would go on it, or even if I could see how these were deployed, there was communication between us as we were all in the same team but as far as what containers were deployed, where they were hosted, I was not involved in. But one day in the slack channel they asked for help if anyone knew how to automate some of their deployments with ansible as provisioning 6 servers with all of the packages/repos/deployments they needed would take time if done manually. I replied with 
   * when you had to pivot on a project that was mostly complete 
     * YC 
     * have backup 
