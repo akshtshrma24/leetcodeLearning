@@ -257,8 +257,30 @@ cat /etc/fstab
     * R
       * Within a bout a month of talking to users to see how they were liking our "app", we were able to do a soft launch with limited beta users that we knew could send money across countries. The new pivot which was delinking banks and crypto, where users would just sync their wallet. The startup ultimately didnt take off, and we had to sunset the idea, the pivot was well received and a step in the right direction. 
   * when you convinced the team to agree with you but outcome was negative 
-    * take a look at the videos
-    * low ego
+    * S 
+      * During that fintech startup I worked at, actually developing the back end we were expirementing trying different solutions out, to have a scalable back end solution, so that our back end was efficient. 
+    * T
+      * I had a basic Rest API going with Fast API back end, but I believed that we could increase the performance of the backend by implementing GRPC. I argued that GRPC that it would provide for better scalability and speed in the long run and used the expectation of user growth as my main point that I leveraged
+    * A
+      * I started imlpementing, I started to replace/rewrite the end points I had created in Fast API, erasing so much work in the process, I had to setup protobuf definitions across our services. This cost us a lot of time, I had to rewrite a lot of the documentation that I wrote for Fast API implementation with Python.
+    * R
+      * While technically it worked, it was actually less scalable than before for the simple fact that implementing new features/refining old ones was just harder now. Our user base was not growing and even if it was it would be months/years or even a maybe not if we would reach the amount of users where the performance differences would even matter. This was a mistake on my end that I owned, I rolled back the changes and learned a huge lesson. Premature optimization, while you could optimize for one thing there will be trade offs on another end, that end being complexity just wasnt worth it for our user base. 
   * when you pushed back against the project or aspect of the project you disagreed with 
+    * S
+      * At db control, my original task was to continue writing and maintaining legacy software written in Lab View running on individual Windows laptops. This setup worked, but it was a tedious and error prone process as a test engineer would need to stand next to the windows laptops and manually write numbers down which was not scalable nor error resistant.
+    * T
+      * Leadership originally asked me to continue writing LabView but I felt strongly that this is not scalable and I knew that it does not work as we are behind every year on shipment of units due to testing. The team recently hired a bunch of software engineers who I felt were more than capable of writing this type of software, as they had similar backgrounds to me. 
+    * A 
+      * I pushed back on this idea as I felt like this is not the direction that a company that wants to grow would be moving. I developed both at the same time. I wrote the LabView software and also developed the Grafana and prometheus solutions. I got my team involved as they felt the same way as me, although there were some disagreements on what we should go with tehre was a common consensus that this solution will not scale. I brought this up during our next weekly stand up after showing the LabView software that I developed that was asked of me, I and the team were all in agreement about this new monitoring stack. The leadership agreed to take on a new monitoring stack as they too agreed that a more modern solution would be best, but we had to come to an agreement on what stack, and as I shared in my previous answer we came to it. 
+    * R
+      * The solution was rolled out across the lab, it streamlined the testing process and made test engineers be able to record and look back on values remotely so they did not need to stand next to the windows laptops anymore. We began to get on pace to ship out on time products for the first time for what I was told like 7 years. 
   * when you had a project worked on that would have gone better without your involvment
+    * S
+      * During my time at PayPal, actually from what I told you guys earlier it will tie into that. We were integrating new merchants and to get ready for that the SRE team needed a DataDog dashboard built.
+    * T
+      * I was tasked with writing and creating a Datadog dashboard of 4xx and 5xx errors that would be used by the SRE team in mexico. 
+    * A
+      * Excited to contribute I started writing the dashboard. I created metrics that I thought were great for the amount of traffic we were getting. Thinking back into my lesson I learned from the startup I didnt want to pre optimize too much for growth, so I used our current numbers when building the dashboard. I didnt spend enough time thinking about the new onboarding of merchants that were to come in teh future
+    * R
+      * The result of this was a lot of noisy alerts, as I had set the thresholds for the alerts too low and the SRE team was getting too many alerts. I owned up to the mistake and I went back and spent time figuring out what had gone wrong and found that for some of the alerts I had used static numbers for thresholds. A few weeks later I rebuilt the dashboard using a rolling standard deviation for the threshold. In Hindsiight if I had let a senior engineer make the dashboard It would have been a smoother experience for everyone. I understood that while its not the best to optimize for unkown future growth, you do have to optimize for known future growth. 
 * what are the 
