@@ -240,10 +240,22 @@ cat /etc/fstab
       * This approach quickly returned our number of alerts to what they were before we started the integration of new merchants. It actually improved the accuracy of the alerts than what we had before because for some reason we had hard coded values, but after changing that. Our false positives went down by a lot. 
   * when you handled the problem outside the scope of work
     * S
-      * During PayPal I was a Software Engineer on the MRE team, I was not on the SRE team so I was not involved much if at all in the provisioning of the Control Room servers, what would go on it, or even if I could see how these were deployed, there was communication between us as we were all in the same team but as far as what containers were deployed, where they were hosted, I was not involved in. But one day in the slack channel they asked for help if anyone knew how to automate some of their deployments with ansible as provisioning 6 servers with all of the packages/repos/deployments they needed would take time if done manually. I replied with 
+      * During PayPal I was a Software Engineer on the MRE team, I was not on the SRE team so I was not involved much if at all in the provisioning of the Control Room servers, what would go on it, or even if I could see how these were deployed, there was communication between us as we were all in the same team but as far as what containers were deployed, where they were hosted, I was not involved in. But one day in the slack channel they asked for help if anyone knew how to automate some of their deployments with ansible as provisioning 6 servers with all of the packages/repos/deployments they needed would take time if done manually.
+    * T
+      * Although I wasnt on the SRE team and the provisioning of those servers wasnt a part of my job, I noticed they needed help and I believe that my knowledge of ansible would help them. They were also under a time crunch and I know they could use my help.
+    * A
+      * I replied offering some help and that I believe ansible could help with this. After being granted temporary access to the repos they had and where they hosted the images, I worked side by side with the SRE team to provision these servers. I wrote ansible playbooks and had a knowledge session with them about why I thougth ansible would be a good pick for this and about what it was. I also documented everything I did in a github repo I owned and shared with them just so I never lost it and I could always share/edit it if they had more questions even after my access was revoked. 
+     * R
+       * With my help the SRE team deployed the full cluster a bit ahead of schedule, their main goal was to be on time. The environments were setup and made so adding new server would be easy with the playbooks and documentation I wrote. Even though this wasnt in my job scope, I saw an adjacent area that I could step in and be of value, and help get my coworkers on pace and even ahead. 
   * when you had to pivot on a project that was mostly complete 
-    * YC 
-    * have backup 
+    * S
+      * During College I was given an oppurtunity to work for a Stealth Fintech Startup that was in such early stages they were looking for a talented college student they could pay with zelle. No HR no payroll just straight code this Ill give you zelle. I was ecstatic I mean what an oppurtunity to work full time in college. It was a startup trying to build a venmo like platform that operated on top of crypto, meaning you could send money internationally because it would be sending digital currency. I had nearly finished the back end of this project, I wrote the signup process, the process to creat wallets, the process to send money, and to convert real money to crypto. 
+    * T
+      * Right before on boarding some early test users, the founders realised that this could be a huge legal issue, the movement of crypto across countries by our platform could be seen as a huge legal issue. We had to pivot quickly.
+    * A
+      * I rewrote the back end so that the users couldnt actually convert money into crypto, it was all digital kind of spoof money that we worked with. Instead of generating new wallets for users on our platform, I set it up so people could just link their wallets. So it wasnt on us to send the money. This reduced complexity and made it so we could start early testing. 
+    * R
+      * Within a bout a month of talking to users to see how they were liking our "app", we were able to do a soft launch with limited beta users that we knew could send money across countries. The new pivot which was delinking banks and crypto, where users would just sync their wallet. The startup ultimately didnt take off, and we had to sunset the idea, the pivot was well received and a step in the right direction. 
   * when you convinced the team to agree with you but outcome was negative 
     * take a look at the videos
     * low ego
